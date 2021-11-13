@@ -1,0 +1,14 @@
+{
+  "name": "abortf",
+  "version": "master",
+  "repo": "promovicz/abortf",
+  "desciption": "Printing and formatting versions of abort",
+  "license": "Unlicense",
+  "keywords": [
+    "abort", "printf", "aborts", "abortf"
+  ],
+  "src": [
+    "abortf.h",
+    "abortf.c"
+  ]
+}
