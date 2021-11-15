@@ -3,6 +3,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#ifndef IN_ABORTF
+#define IN_ABORTF
+#endif
+
 #include "abortf.h"
 
 FUN_NORETURN
