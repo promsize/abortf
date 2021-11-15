@@ -12,6 +12,7 @@
 FUN_NORETURN
 void aborts(const char *msg) {
   fputs(msg, stderr);
+  fputc('\n', stderr);
   fflush(stderr);
   abort();
 }
