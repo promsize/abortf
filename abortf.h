@@ -21,13 +21,16 @@
 #define FUN_NORETURN
 #endif
 
+/** abort printing a fixed message */
 FUN_NORETURN
 extern void aborts(const char *msg);
 
+/** abort with formatting */
 FUN_NORETURN
 FUN_FORMAT(printf, 1, 2)
 extern void abortf(const char *fmt, ...);
 
+/** abort with formatting */
 FUN_NORETURN
 FUN_FORMAT(printf, 1, 0)
 extern void abortvf(const char *fmt, va_list a);
