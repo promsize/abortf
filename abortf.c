@@ -1,3 +1,8 @@
+/*
+ * abortf - Printing variants of abort
+ *
+ * Copyright (C) 2020-2021 Ingo Albrecht <copyright@promovicz.org>
+ */
 
 #include <stdarg.h>
 #include <stdio.h>

@@ -1,3 +1,9 @@
+/*
+ * abortf - Printing variants of abort
+ *
+ * Copyright (C) 2020-2021 Ingo Albrecht <copyright@promovicz.org>
+ */
+
 #ifndef ABORTF_H
 #define ABORTF_H
 
