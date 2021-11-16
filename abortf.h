@@ -8,6 +8,7 @@
 #define ABORTF_H
 
 #include <stdarg.h>
+#include <stdlib.h>
 
 /* use attributes to enable format checking */
 #if defined(__GNUC__) || defined(__clang__)
